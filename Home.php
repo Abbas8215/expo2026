@@ -50,6 +50,9 @@ require_once 'header.php';
   <a href="Studentdata.php" class="card-link">
     <div class="card"><div class="card-body"><h3 data-en="Student Data" data-ar="بيانات الطلاب">بيانات الطلاب</h3></div></div>
   </a>
+  <a href="FINALRESULT.php" class="card-link">
+    <div class="card"><div class="card-body"><h3 data-en="Final Result" data-ar="النتائج النهائية">النتائج النهائية</h3></div></div>
+  </a>
   <?php } ?>
 
   <?php if ($role === 'judge' || $role === 'Admin') { ?>
